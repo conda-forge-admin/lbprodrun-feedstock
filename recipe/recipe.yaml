@@ -44,7 +44,7 @@ tests:
         - "*"
       imports:
         - LbProdRun
-      check: true
+      pip_check: true
   - requirements:
       run:
         - python ${{ python_min }}.*
