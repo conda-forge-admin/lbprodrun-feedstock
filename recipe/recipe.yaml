@@ -38,7 +38,6 @@ requirements:
     - lbcondawrappers
 
 tests:
-tests:
   - python:
       python_version:
         - ${{ python_min }}.*
